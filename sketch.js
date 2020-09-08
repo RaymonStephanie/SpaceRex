@@ -76,7 +76,7 @@ function draw() {
 
   background("darkblue");
   //displaying score
-  text("SURVIVAL TIME " + score, 500, 50);
+  text("SURVIVAL TIME " + score, width - 100, height - 50);
 
   if (mousePressedOver(restart) && gameState === END) {
     reset();
